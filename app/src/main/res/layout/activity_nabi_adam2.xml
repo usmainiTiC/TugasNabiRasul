@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiAdam2">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+        <Button
+                android:text="Home"
+                android:background="@drawable/button_background"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="9dp"
+                android:typeface="monospace"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_adam2"
+                android:layout_marginTop="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <TextView
+                android:text="Kisah Nabi Adam A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/adam"/>
+        <TextView
+                android:text="    Allah SWT pun marah karena Adam dan Hawa melanggar larangannya. Mereka berdua diusir dari surga dan diturunkan ke bumi."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="    Di bumi inilah, Adam dan Hawa mulai membangun peradaban umat manusia. Mereka memiliki banyak anak yang kemudian berpencar ke seluruh dunia, hingga menjadi banyak suku dan bangsa yang berbeda."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiYakub">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:typeface="monospace"
+                android:background="@drawable/button_background"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_yakub1"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Yakub A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:typeface="monospace"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/yakub"/>
+        <TextView
+                android:text="    Nabi Yaqub A.S. adalah nabi kesepuluh. Ia adalah putra Nabi Ishak. Semasa remaja, Yaqub tinggal bersama pamannya di Babylonia. Kemudian, ia menikah dengan kedua putri pamannya. Yaqub diangkat menjadi nabi dan berdakwah di Palestina dan Syiria. Ia wafat di Hebron, Palestina."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Yaqub berangkat menuju rumah pamannya di Babylonia. Sesampainya di sana, ia disambut dengan baik oleh pamannya. Laban adalah orang yang sangat baik hati. Ia dikenal sebagai orang kaya yang dermawan.
+Yaqub tumbuh dalam asuhan Laban. Ia tumbuh menjadi pemuda yang saleh, cerdas, dan giat. Yaqub disukai oleh seluruh anggota keluarga Laban."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Yaqub telah dewasa. Sudah waktunya bagi Yaqub untuk menikah. Laban menawarkan kepada Yaqub untuk dinikahkan dengan putri sulungnya, Layya. Namun, Yaqub menyukai Rahiel, adik Layya. Akhirnya, dicapai kesepakatan bahwa Yaqub menikahi Layya terlebih dahulu, baru kemudian boleh menikahi Rahiel."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+        <TextView
+                android:text="     Yaqub pun menikahi Layya. Selama tujuh tahun, Yaqub menggembala kambing yang kelak digunakan sebagai mas kawin menikahi Rahiel. Setelah tujuh tahun, Yaqub pun menikahi Rahiel. Pada masa itu, belum ada larangan mengumpulkan dua perempuan kakak beradik untuk dinikahi."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="     Kemudian, untuk mengurus keperluan rumah tangga anaknya, Laban memberikan dua orang pembantu. Seorang bernama Zulfa untuk membantu Layya. Seorang lagi bernama Balhah untuk membantu Rahiel."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="     Dari pernikahannya dengan Layya, Yaqub dikaruniai enam orang anak; Raubin, Syam`un, Lewi, Yahuza, Yasyzar, dan Zabulon. Dari pernikahannya dengan Rahiel, Yaqub memiliki dua orang anak; Yusuf dan Bunyamin. Dari pernikahannya dengan Balhah, Yaqub dikaruniai dua orang anak; Dan dan Neftalia. Dari pernikahannya dengan Zulfa, Yaqub dikaruniai dua orang anak; Jad dan Asyir."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="     Yaqub adalah seorang yang taat kepada Allah. Ia juga seorang yang baik hati, dermawan, dan suka menolong sesama. Yaqub juga dikaruniai tubuh yang kuat dan ilmu pengetahuan yang tinggi."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:background="@drawable/button_background"
+                android:typeface="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:id="@+id/t_nextyakub2"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

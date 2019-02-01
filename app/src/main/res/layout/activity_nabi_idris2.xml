@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiIdris2">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:typeface="monospace"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:background="@drawable/button_background"
+                android:layout_height="30dp"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_idris2"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Idris A.S."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/idris"/>
+        <TextView
+                android:text="    Malaikat izroil berkata lagi ”Ya Nabi Allah, mengapa ingin melihat neraka? Bahkan para malaikat pun takut untuk melihatnya”
+    Kemudian Nabi Idris pun menjelaskan alasannya ”Terus terang, saya takut sekali kepada azab Allah itu. Tapi mudah-mudahan, iman saya menjadi lebih tebal setelah melihatnya”.
+    Saat malaikat izroil dan Nabi Idris sampai di dekat neraka, nabi idris as langsung pingsan. Malaikat penjaga neraka merupakan sosok yang sangat menakutkan. Ia menyeret dan menyiksa manusia-manusia yang durhaka kepada Allah semasa hidupnya. Nabi Idris as tidak sanggup menyaksikan berbagai siksaan yang sangat mengerikan itu. Tidak ada pemandangan yang lebih mengerikan dibandingkan dengan neraka. Api berkobar dahsyat, bunyi yang bermuruh menakutkan dan hal-hal yang mengerikan lainnya.
+    Nabi idris meninggalkan neraka dengan tubuh yang lemas. Selanjutnya, Nabi Idris di bawah oleh  malaikat izroil ke surga. Malaikat Izroil mengucapkan salam kepada malaikat penjaga pintu surga yaitu Malaikat Ridwan, Assalamu’alaikum …” berbeda dengan malaikat penjaga neraka, malaikat Ridwan memiliki paras yang tampan, wajahnya selalu berseri-seri dan dihiasai dengan senyum yang ramah. Siapaun akan senang untuk memandangnya. Selain itu juga menampilkan sikap yang amat sopan, lemah lembut ketika mempersilahkan para penguni surga memasuki tempat yang penuh kedamaian dan kenikmatan itu.
+    Tidak berbeda saat melihat neraka, nabi idris nyaris pingsan saat melihat surga, bukan karena takut, tapi karena terpesona. Begitu indah dan menakjubkan apa yang ada di surga. Subhanallah, Subhanallah, Subhanallah.. ucapan nabi Idris berulang-ulang karena ia begitu terpukau oleh keindahan surga.
+    Dilihatnya sunga-sungai yang airnya begitu bening seperi kaca. Sementara itu di pingir sungai terdapat pohon-pohon yang bagian batangnya terbuat dari peak dan emas. Lalu ada juga istana-istaina untuk para penghuni surga. Di setiap penjuru ada pohon yang menghasilkan buah-buahan, buahnya pun begit segar, ranum dan harum."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:typeface="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:background="@drawable/button_background"
+                android:id="@+id/t_nextIdris3"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiSyuaib2">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="9dp"
+                android:background="@drawable/button_background"
+                android:typeface="monospace"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_syuaib2"
+                android:layout_marginTop="0dp"/>
+
+        <TextView
+                android:text="Kisah Nabi Syuaib A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:typeface="monospace"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="330dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/syuaib"/>
+        <TextView
+                    android:text="    Nabi Syu’aib as memberitahu mereka bahwa ia khawatir jika mereka meneruskan perbuatan curang tersebut maka mereka akan mendapat azab yang tidak dapat mereka hindari. Hal itu seperti yang tertulis dalam Al Qur an yang berbunyi sebagai berikut :
+    “Dan syu’aib berkata : “Hai kaumku, cukupkanlah takaran dan timbangan dengan adil, dan janganlah kamu merugikan manusia terhadap hak-hak mereka dan janganlah kamu membuat kejatan di muka bumi dengan membuat kerusakan. Dan aku bukanlah seorang penjaga atas dirimu” (Qs 11 : 85 – 86)"
+                android:layout_width="match_parent"
+                    android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView99"/>
+        <TextView
+                android:text="    Nabi Syu’aib as meneruskan misi dakwahnya. Ia mengulangi nasihathnya sampai beberapa kali kepada kaumnya dengan cara yang baik dan mengajak ke jalan yang benar bukan ke jalan yang salah, ia menghimbau kepada kaumnya untuk menegakkan timbangan dengan keadilan dan kebenaran dan mengingatkan mereka agar jangan merampas hak-hak orang lain, bukan hanya dalam jual beli saja namun juga perbuatan lainnya, Ia memerintahkan untuk menegakkan keadilan dan kejujuran. Itulah seruang agama tahuid dan akidah tauhid, kejujuran dan keadilan selalu ia suarakan."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="   Namun sayangnya mereka memiliki sikap seperti msyarakat Madyan, mereka dengan kerasnya menentang Seruan atau ajakan Nabi Syu’aib as, sehingga Allah memberikan azab bagi mereka. Seperti yang difirmankan Allah dalam Al Qur’an sebagai berikut :
+    “Kemudian mereka mendustakan Syu’aib lalu mereka ditimpa azab pada hari mereka dinaungi awan. Sesungguhnya azab itu adalah azab hari yang besar (Qs  26 : 190)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Makam Nabi Syuaib berada di Yordania yang letaknya 2 km barat kota Mahis, Wadi Syu’aib merupakan sebutan area tersebut.
+    Itulah cerita nabi Syuiab, semoga kisah cerita di atas dapat kita ambil hikmahnya, dan semoga kita tidak termasuk golongan seperti kaum Madyan yang dijatuhi azab oleh Allah karena telah berbuat kemaksiatan di muka bumi."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

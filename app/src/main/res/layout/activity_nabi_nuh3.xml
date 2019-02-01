@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiNuh3">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+    <Button
+            android:text="Home"
+            android:textAlignment="center"
+            android:typeface="monospace"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="9dp"
+            android:background="@drawable/button_background"
+            android:layout_alignParentTop="false"
+            android:id="@+id/home_nuh3"
+            android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Nuh A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/nuh"/>
+        <TextView
+                android:text="    Hujan terus turun dengan derasnya. Hari demi hari terus berlalu hingga 40 hari lamanya. Bahtera tetaplah melaju dan mengarungi ombak . Nabi Nuh dan pengikutnya terus berdoa memohon keselamatan kepada Allah. Malaikat turun ke bumi dengan membawa katakata suci. Kemudian oleh beliau ditulis kata-katanya pada sebuah lembaran kayu guna menyelamatkan bahtera yang ditumpangi."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="    Bahtera tetap mengarungi ombak besar menuju ke utara. Setelah 40 hari, hujan pun akhirnya berhenti. Matahari mulai bersinr kembali dan muncullah pelangi. Kemudian beliau melepaskan seekor burung gagak yang kemudian balik lagi karena tak menemukan daratan. Lalu Nabi Nuh melepas burung merpati putih, burung terbang, menghilang bebebrapa saat dan kembali membawa sepotong ranting. Nabi Nuh pun melepaskan merpati putih satu lagi dan tak balik lagi."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Dari kedua merpati putih yang dilepaskan, Nabi Nuh dan pengikutnya senang. Banjir sudah reda dan bahterapun diarahkan ke utara. Mereka semua berdoa dan bersyukur kepada Allah karena telah menyelamatkan dari banjir bandang. Bahtera yang mereka tumpangi pun berlabuh di puncak gunung Judi. Hujan reda, air ditelan bumi dan kehidupan berangsur pulih. Nabi Nuh dan pengikutnya meninggalkan bahtera dan membangun peradaban baru di muka bumi. Semua hidup dengan rukun dan penuh kedamaian."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Nabi Nuh sedang duduk-duduk menikmati sinar matahari saat malaikat maut datang menjemputnya. Ia ditanya oleh malaikat tentang pendapatnya mengenai kehidupannya yang panjang. Beliau pun menjawab, “Kehidupanku di dunia ini seperti gerakanku dari tempat tadi ke tempat teduh ini.” Lalu beliau menutup matanya dan ia telah menyampaikan risalah serta menyelamatkna manusia dari kehancuran. Oleh sebab itu, Allah mengkhususkan salam atasnya selama-lamanya dalam firman-Nya, “Salam sejahtera untuk Nuh di seluruh alam.” (Q.S. AsSaffat : 79). []"
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

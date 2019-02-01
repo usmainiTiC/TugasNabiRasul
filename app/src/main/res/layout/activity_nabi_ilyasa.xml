@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiIlyasa">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_background"
+                android:typeface="monospace"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_ilyasa"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Ilyasa A.S."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/ilyasa"/>
+        <TextView
+                android:text="    Nabi Ilyasa adalah salah satu dari 25 nabi yang wajib diketahui.  Beliau diangkat menjadi nabi oleh Allah SWT sekitar tahun 830 sebelum masehi dan ditugaskan berdakwah kepada Bani Israil dan juga orang-orang Amoria (Panyas, Syam.) Silsilah Nabi Ilyasa adalah keturunan keempat dari Nabi Yusuf Alaihissalam."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:typeface="monospace"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Masa kecil nabi Ilyasa sangat menderita, Ia hidup bersama ibunya, atas izin Allah Subhanahu Wa Ta’ala mereka berdua dipertemukan dengan Nabi Ilyas Alaihissalam, yang saat ini sedang dikejar-kejar oleh kaumnya yang ingkar."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Waktu itu Nabi Ilyas masuk ke rumah nabi Ilyasa yang saat itu masih kecil dan sedang terbaring sakit. Atas doa Nabi Ilyas kepada Allah, maka Ilyasa kecil dapat sembuh dan bangun dari tidurnya."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+        <TextView
+                android:text="     Kemudian ia dijadikan anak angkat atas izin ibunya. Nabi Ilyas Alaihissalam sering membawa serta Ilyasa kecil saat berdakwah. Ilyasa turut menemani Nabi Ilyas Alaihissalam ketika bersembunyi di dalam gua, saat menghindari kejaran sekelompok Bani Israil."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6"/>
+        <TextView
+            android:text="     Dikisahkan pada saat itulah Ilyasa muda mulai diangkat menjadi nabi. Nabi Ilyasa tidak membawa ajaran baru. ia melanjutkan ajaran tauhid dari Nabi Ilyas Alaihissalam dan berdakwah kepada kaum Bani Israil."
+            android:layout_width="match_parent"
+            android:typeface="monospace"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:id="@+id/textView611"/>
+        <TextView
+                android:text="    Suatu hari ada kisah nabi Ilyasa AS, beliau bersama beberapa pengikutnya mendatangi suatu daerah dan penduduk daerah tersebut mengandung, bahwa sumber air yang mereka miliki telah rusak, berbau, dan tidak dapat diminum."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6221"/>
+        <TextView
+                android:text="    Kemudian nabi Ilyasa berdoa kepada Allah dan memohon petunjuk, setelah itu nabi Ilyasa menebar beberapa genggam garam ke dalam mata air yang telah rusak."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6262121"/>
+        <TextView
+                android:text="    Alhamdulillah berkat mukjizat dari Allah subhanahu wa ta’ala, mata air tersebut menjadi bersih dan tawar, sehingga dapat diminum kembali."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView62622121121"/>
+        <TextView
+                android:text="    Hal ini merupakan salah satu hal yang menyebabkan nabi Ilyasa Alaihissalam diangkat menjadi raja, saat nabi Ilyasa Alaihissalam menjadi seorang raja, Ia dikenal sebagai seorang pemimpin yang arif dan bijaksana."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView622121121"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiYakub2">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:background="@drawable/button_background"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:typeface="monospace"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_yakub2"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Yakub A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:typeface="monospace"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/yakub"/>
+        <TextView
+                android:text="    Dengan kelebihan yang dimilikinya itu, Yaqub akhirnya diangkat oleh Allah menjadi nabi dan rasul. Yaqub berdakwah di Palestina dan Syiria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Nabi Yaqub menyeru umat manusia agar menyembah Allah dan bertakwa kepada-Nya. Ia juga menyeru umatnya agar taat melaksanakan shalat, membayar zakat, dan gemar berbuat kebajikan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:typeface="monospace"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Selama menjalankan tugas dakwah, Nabi Yaqub sering menolong kaumnya. Kelembutan hati Yaqub membuat kaumnya simpati kepadanya. Mereka banyak yang mengikuti ajaran Nabi Yaqub. Nabi Yaqub wafat di Hebron, Palestina."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+        <TextView
+                android:text="      Kita bisa memetik pelajaran berharga dari kisah Nabi Yaqub AS. Ia mampu bersikap bijaksana untuk menyelamatkan keretakan persaudaraan antara kakak-adik.
+    Selain itu, sebagai hamba Allah kita harus taat kepada-Nya, memiliki ilmu dan wawasan yang luas, bermanfaat bagi orang lain, serta berakhlak mulia. Tujuannya, agar kita bisa sukses dan disukai banyak orang."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

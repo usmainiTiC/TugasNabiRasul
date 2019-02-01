@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiSulaiman2">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_background"
+                android:typeface="monospace"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_sulaiman2"
+                android:layout_marginTop="0dp"/>
+
+        <TextView
+                android:text="Kisah Nabi Sulaiman A.S."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/sulaiman"/>
+        <TextView
+                android:text="    Suatu ketika, Nabi Sulaiman terkejut ketika dalam pertemuan, ia tidak mendapati burung Hud-hud. la bertanya kepada pasukannya, “Kemanakah burung Hud-hud, mengapa ia tidak datang? Padahal, aku akan memberinya tugas penting.” Tidak lama kemudian, burung Hud-hud datang dengan terengah-engah. Wajahnya menunjukkan perasaan bersalah karena keterlambatannya. Nabi Sulaiman kemudian menanyakan alasan keterlambatannya, “Mengapa kamu terlambat Hud-hud?”"
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView99"/>
+        <TextView
+                android:text="    Hud-Hud menjawab, “Maafkan keterlambatan saya, Baginda. Saya baru kembali dari perjalanan jauh. Saya sampai pada sebuah kerajaan besar yang belum Baginda ketahui. Kerajaan tersebut bernama Saba’. Kerajaan itu dipimpin oleh seorang wanita bernama Balqis. Mereka hidup makmur. Namun, mereka menyembah matahari.”"
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="   Nabi Sulaiman tampak tertarik dengan cerita Hud-hud. la berpikir bahwa ada kerajaan adil dan makmur, namun tidak menyembah Allah. Lalu, ia menulis surat untuk ratu Saba’. Pembukaannya berisi kalimat sebagai berikut, “Dari Sulaiman kepada ratu di Negeri Saba’."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang. Janganlah kamu sekalian berlaku sombong terhadapku dan datanglah kepadaku sebagai orang-orang yang berserah diri. Setelah menuliskan pembukaan surat, Sulaiman kemudian menuliskan tentang ajakannya kepada ratu di Negeri Saba’ untuk masuk Islam dan meninggalkan penyembahan terhadap matahari. Setelah selesai menulis surat, Sulaiman menyuruh Hud-hud untuk menyampaikannya kepada ratu di Negeri Saba’."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Burung Hud-hud segera berangkat. la terbang dengan kecepatan tinggi. la akhirnya sampai ke Kerajaan Saba’. la langsung menuju ke singgasana ratu di Negeri Saba’ dan menjatuhkan surat tersebut di dekat Ratu Balqis."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView88"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Ratu Balqis membaca surat tersebut. la sangat kaget setelah membaca isinya. Kemudian, ia pun mengumpulkan seluruh penasihat kerajaan. la mendiskusikan tentang sikap yang harus mereka ambil terhadap ajakan Nabi Sulaiman. Akhirnya, sebuah keputusan diambil. la menuliskan surat balasan yang berisi bahwa ia bersama bawahannya akan datang ke kerajaan Nabi sulaiman. la juga memberitahukan bahwa negeri yang dipimpinnya merupakan negeri yang besar dan kuat."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:id="@+id/textView66"
+                android:textSize="10dp"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:layout_width="wrap_content"
+                android:typeface="monospace"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:background="@drawable/button_background"
+                android:id="@+id/t_nextsulaiman3"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

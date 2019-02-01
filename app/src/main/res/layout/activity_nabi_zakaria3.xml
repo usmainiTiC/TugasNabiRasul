@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiZakaria3">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:typeface="monospace"
+                android:layout_width="70dp"
+                android:background="@drawable/button_background"
+                android:layout_height="30dp"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_zakaria3"
+                android:layout_marginTop="0dp"/>
+
+        <TextView
+                android:text="Kisah Nabi Zakaria A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:typeface="monospace"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/zakaria"/>
+        <TextView
+                android:text="    Zakaria kaget dengan berita ini, bagaimana ia dapat memiliki seorang anak. Karena saking gembiranya Zakaria sangat terguncang dan dengan penuh keheranan ia bertanya:
+    “Ya Tuhanku, bagaimana akan ada anak bagiku, padahal istriku adalah seorang yang mandul dan aku (sendiri) sesungguhnya sudah mencapai umur yang sangat tua.” (QS. Maryam: 8)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="    Ia heran bagaimana ia dapat melahirkan sementara ia sudah tua dan istrinya pun wanita yang mandul: “Tuhan berfirman: ‘Demikianlah.’ Tuhan berfirman: ‘Hal itu adalah mudah bagi-Ku; dan sesungguhnya telah Aku ciptakan kamu sebelum itu, padahal kamu (di waktu itu) belum ada sama sekali.” (QS. Maryam; 9)"
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Para malaikat memberitahunya bahwa ini terjadi karena kehendak Allah SWT dan kehendak-Nya pasti terlaksana. Tidak ada sesuatu pun yang sulit bagi Allah SWT. Segala sesuatu yang diinginkan di alam wujud ini pasti terjadi. Allah SWT telah menciptakan Zakaria sebelumnya dan beliau pun sebelumnya tidak pernah ada. Segala sesuatu diciptakan Allah SWT hanya dengan kehendak-Nya: “Sesungguhnya perintah-Nya apabila Dia menghendaki sesuatu hanyalah herkata kepadanya: ‘Jadilah!’, maka jadilah ia. ” "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Hati Nabi Zakaria dipenuhi rasa syukur kepada Allah SWT dan ia pun memuji-Nya. Lalu ia meminta kepada Allah SWT agar memberinya tanda-tanda: “Zakaria berkata:
+    Ya Tuhanku, berilah suatu tanda.’ Tuhan berfirman: ‘Tanda bagimu adalah bahwa kamu tidak dapat bercakap-cakap dengan manusia selama tiga malam, padahal kamu sehat.’ Maka ia keluar dari mihrab menuju kaumnya, lalu ia memberi isyarat kepada mereka; hendaklah kamu bertasbih di waktu pagi dan petang.” (QS. Maryam: 10-11)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView6"/>
+        <TextView
+                android:text="    Zakaria gemetar, karena saking gembiranya. Air matanya mulai berlinangan dan jenggotnya yang putih mulai basah. Ia salat kepada Allah SWT sebagai tanda syukur atas pengkabulan doanya dan kelahiran Yahya."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView7"/>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

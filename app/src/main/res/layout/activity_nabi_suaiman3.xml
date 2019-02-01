@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiSuaiman3">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:background="@drawable/button_background"
+                android:layout_height="30dp"
+                android:typeface="monospace"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_sulaiman3"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Sulaiman A.S."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/sulaiman"/>
+        <TextView
+                android:text="    Oleh karena itu, seharusnya Nabi Sulaiman segan kepadanya. Ratu Balgis juga menulis bahwa sesungguhnya raja-raja apabila memasuki suatu negeri, niscaya mereka membinasakannya dan menjadikan penduduknya yang mulia menjadi hina dan demikian pulalah yang akan mereka perbuat. Setelah selesai menulis surat, ia lalu memerintahkan utusannya untuk menyampaikan suratnya tersebut kepada Nabi Sulaiman."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView99"/>
+        <TextView
+                android:text="    Utusan-utusan itu pun akhirnya sampai ke Kerajaan Sulaiman. Mereka datang sambil membawa banyak hadiah. Mereka disambut dengan ramah oleh Sulaiman dan bawahannya. Nabi Sulaiman menerima dan membaca surat dari Ratu Balgis. Ketika semua urusan telah selesai, Sulaiman berkata kepada para utusan, kembalilah kalian pada ratu kalian, katakan kepadanya bahwa apa yang diberikan Allah kepadaku lebih balk daripada apa yang diberikan-Nya kepadamu, tetapi kamu merasa bangga dengan hadiahmu."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="   Utusan itu pun akhirnya kembali ke Negeri Saba’. Sesampainya di Saba’, mereka langsung menemui Ratu Balgis dan menyampaikan pesan dari Nabi Sulaiman. Ratu Balgis sangat terkejut mendengar tentang sikap Nabi Sulaiman. la menjadi penasaran ingin mengetahui Nabi Sulaiman dan kerajaannya. Kemudian, ia menyiapkan pasukannya untuk mengadakan kunjungan kepada kerajaan Nabi Sulaiman."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Berita tentang kunjungan Ratu Balgis ke bani Israil telah sampai pada Nabi Sulaiman melalui mata-matanya. Lalu, Nabi Sulaiman mengadakan pertemuan dengan para tentaranya. la berkata kepada mereka, “Siapa diantara kalian yang sanggup memindahkan singgasana Kerajaan Saba’ dalam waktu sekejap?” Lalu, di antara tentaranya, terdengar suara menjawab,” Saya sanggup Baginda, sebelum Anda beranjak dari singgasana Anda, singgasana Kerajaan Saba’ akan pindah ke sini,” kata Jin lfrit."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:typeface="monospace"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Tak beberapa lama, rombongan Ratu Balgis pun akhirnya datang. Nabi Sulaiman dan pasukannya kemudian menyiapkan upacara penyambutan. Saat terjadi pembicaraan, Nabi Sulaiman kemudian menunjuk ke arah singgasana yang dimiliki kerajaan Saba’ sambil berkata,” Ratu Balqis, seperti itukah kerajaan dan singgasanmu?”
+    Ratu Balqis sangat terkejut karena ia menyaksikan singgasana yang persis dengan miliknya. Nabi Sulaiman lalu menjelaskan bahwa ia telah memindahkan singgasana Kerajaan Saba’. Hal ini tentu saja membuat Ratu Balqis merasa kagum dengan kepandaian Nabi Sulaiman."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView88"
+                android:textSize="10dp"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_background"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:typeface="monospace"
+                android:id="@+id/t_nextsulaiman4"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

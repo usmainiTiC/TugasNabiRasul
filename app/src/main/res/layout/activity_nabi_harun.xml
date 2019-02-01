@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiHarun">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:typeface="monospace"
+                android:background="@drawable/button_background"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_harun"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Harun A.S."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/harun"/>
+        <TextView
+                android:text="    Nabi Harus AS diutus oleh Allah SWT untuk membantu tugas kerasulan Nabi Musa AS. Dalam berbicara, ia lebih cakap daripada Nabi Musa AS."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Kini tibalah saatnya nabi Musa untuk menerima wahyu dari Allah swt, ia memerintahkan nabi Harun agar menjaga umatnya, jangan sampai mereka kufur, lalu nabi Musa naik gunung Thursina, untuk berkhalwat dan berpuasa sempat empat puluh hari. Diatas gunung nabi Musa kemudian memohon kepada Allah swt “ Ya Tuhan, dapatkah aku melihat Engkau ?”"
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Allah swt berfirman:”Engkau tidak akan sanggup melihat Ku, tetapi cobalah lihat bukit itu. Jika tetap berdiri tegak di tempatnya maka kau akan dapat melihat Ku”. Lalu nabi Musa menoleh kearah bukit atau gunung yang dimaksud, seketika gunung yang dilihat hancur luluh tanpa meninggalkan bekas, lalu masuk ke dalam perut bumi."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+        <TextView
+                android:text="     Nabi Musa terperanjat, gemetar seluruh tubuhnya dan jatuh pingsan, setelah itu sadar ia bertasbih dan bertahmid seraya memohon ampun atas kelancangannya itu, “ maha besar Engkau Wahai Tuhan, ampunilah aku dan terimalah taubatku dan aku akan menjadi orang pertama yang beriman kepada Mu”. Selanjutnya Allah swt menurunkan Kitab Taurat yang berupa kepingan – kepingan batu, di dalamnya tertulis pedoman hidup dan penuntun beribadah kepada Allah Swt. "
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6"/>
+        <TextView
+                android:text="     Ketika nabi Musa turun dari bukit Thursina ia terkejut, kaumnya lelah tersesat. Mereka berpesta pora dan menyembah patung anak sapi yang terbuat dari emas. Nabi Musa menegur saudaranya yaitu Harun yang telah dititipi agar menjaga umatnya. Nabi Harun berkata bahwa ia sudah memperingatkan mereka, namun mereka tak menganggapnya sebelah mata. Nabi Harun dianggap orang yang lemah."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6666"/>
+        <TextView
+                android:text="     Setelah diselidiki ternyata Samiri-lah orang yang mengajak orang – orang itu membuat patung anak sapi dan menyembahnya. Nabi Musa marah sekali sehingga Samiri diusir, dan tidak boleh bergaul dengan masyarakat, sebab Samiri terkena kutukan, jika ia disentuh atau menyentuh manusia maka badannya akan menjadi demam panas itulah siksaan di dunia, adapun nanti di akhirat ia akan di masukkan ke dalam neraka."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView633"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:typeface="monospace"
+                android:background="@drawable/button_background"
+                android:textSize="10dp"
+                android:id="@+id/t_nextharun2"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

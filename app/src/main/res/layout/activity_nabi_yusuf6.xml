@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiYusuf6">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:typeface="monospace"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:background="@drawable/button_background"
+                android:id="@+id/home_yus6"
+                android:layout_marginTop="0dp"/>
+
+        <TextView
+                android:text="Kisah Nabi Yusuf A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/yusuf"/>
+        <TextView
+                android:text="    Supaya Benjamin tetap tinggal di Mesir maka Nabi Yusuf Alaihissalam sengaja memasukkan alat penakar gandum ke dalam karung Benyamin dan hukumnya menjadi budak di Mesir selama setahun lamanya."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="    Akhirnya saudara-saudara Nabi Yusuf Alaihissalam pulang kembali ke negeri Syam, tanpa Benyamin. Baru setelah itu Nabi Yusuf Alaihissalam memanggil Benyamin Ia adalah Yusuf kakaknya, mereka berpelukan melepas kerinduan yang telah lama terpendam."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Di negeri Syam nabi Yaqub Alaihissalam sangat sedih kehilangan Benyamin dan memerintahkan putra-putranya agar kembali ke Mesir, dengan misi untuk membawa pulang Benyamin."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Sesampainya di Mesir, bertemu dengan Benyamin, alangkah terkejutnya ketika Benyamin menjelaskan bahwa yang menjadi menteri pengelolaan pangan adalah Yusuf yang dahulu mereka buang ke sumur, sontak saudara-saudara Nabi Yusuf Alaihissalam langsung dengan minta maaf menyesal telah iri dan dengki kepada Nabi Yusuf Alaihissalam."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+        <TextView
+                android:text="    Mereka menceritakan bahwa sepeninggal Nabi Yusuf Alaihissalam, Nabi Yaqub Alaihissalam selalu menangis hingga matanya tidak dapat melihat. Pada saat saudara-saudaranya akan kembali lagi ke negeri Syam, Nabi Yusuf Alaihissalam membawa sebuah baju gamis miliknya untuk diusapkan ke bagian wajah Nabi Yaqub Alaihissalam, ternyata setelah disahkan maka atas izin Allah Subhanahu Wa Ta’ala mata nabi Yaqub Alaihissalam dapat melihat kembali."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6"/>
+        <TextView
+                android:text="    Mereka menceritakan bahwa sepeninggal Nabi Yusuf Alaihissalam, Nabi Yaqub Alaihissalam selalu menangis hingga matanya tidak dapat melihat. Pada saat saudara-saudaranya akan kembali lagi ke negeri Syam, Nabi Yusuf Alaihissalam membawa sebuah baju gamis miliknya untuk diusapkan ke bagian wajah Nabi Yaqub Alaihissalam, ternyata setelah disahkan maka atas izin Allah Subhanahu Wa Ta’ala mata nabi Yaqub Alaihissalam dapat melihat kembali."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:typeface="monospace"
+                android:id="@+id/textView7"/>
+        <TextView
+                android:text="    Inilah arti mimpi Nabi Yusuf Alaihissalam ketika masih kecil, Matahari melambangkan nabi Yaqub Alaihissalam, bulan melambangkan Ibunya, dan 11 bintang melambangkan 11 saudaranya. Pada zaman Nabi Yusuf bersujud kepada sesama, merupakan tradisi bahkan disyariatkan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:typeface="monospace"
+                android:id="@+id/textView8"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

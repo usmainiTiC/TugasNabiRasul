@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiYunus">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_background"
+                android:textSize="9dp"
+                android:typeface="monospace"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_yunus1"
+                android:layout_marginTop="0dp"/>
+
+        <TextView
+                android:text="Kisah Nabi Yunus A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:typeface="monospace"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/yunus"/>
+        <TextView
+                android:text="    Nabi Yunus bin Mata termasuk orang yang shaleh, sejak sebelum diangkat menjadi Nabi dan Rasul beliau memang seorang ahli ibadah yang tekun. Ia termasuk orang yang lurus, namun ada kelemahannya yaitu mudah hilang harapan, ia telah mengajak kaumnya menyembah Allah dan meninggalkan penyembahan terhadap berhala. Meninggalkan kemaksiatan dan kedurhakaan. Namun di antara sekian banyak kaumnya itu hanya dua orang yang mau mengikutinya. Dua orang itu adalah Rubil dan Tanuh. Rubil seorang yang alim dan bijaksana sedangkan Tanuh seorang yang tenang dan sederhana."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView99"/>
+        <TextView
+                android:text="   Nabi Yunus as mengancam kaumnya bahwa jika dalam tempo 30 hari mereka tidak mau insyaf, tidak bertaubat kepada Allah maka akan diturunkan siksa. Allah mencela batas waktu itu dan supaya ditambah 10 hari dengan demikian turunnya siksa itu menjadi 40 hari. Ia kembali kepada kaumnya untuk menyampaikan bahwa tenggang waktu bagi mereka ditambah 10 hari. Selepas itu mereka akan disiksa. Tetapi kaumnya tidak mau menggubrisnya, mereka malah berani menunggu datangnya siksa itu. Nabi Yunus as putus asa atas kebenggalan kaumnya itu. Ia pergi meninggalkan mereka."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Setelah 40 hari tiba-tiba muncullah awan gelap dipagi hari : “Bertambah siang mereka melihat cahaya merah seperti api hendak turun dari langit. Mereka ketakutan, berbondong-bondong mencari Nabi Yunus tetapi tidak ketemu. Tak seorangpun mengetahui tempatnya. Lalu mereka bertaubat dan menjalankan ajaran Nabi Yunus. Maka siksa tak jadi diturunkan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:typeface="monospace"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Nabi Yunus tak tahu harus pergi ke mana. Tiba di tepi laut ia menumpang sebuah kapal, penumpang kapal sebenarnya sudah banyak, ketika tiba di tengah laut kapal itu oleng dihantam ombak. Semua perbekalan sudah dikurangi, namun kapal tetap oleng. Nakhoda memutuskan untuk melempar salah seorang penumpang ke laut. Diadakan undian, di undi tiga kali selalu nama Yunus yang keluar. Tak dapat ditolak lagi maka Nabi Yunus dilempar ke tengah laut."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:id="@+id/textView88"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Allah tidak menghendaki Rasul-Nya binasa, seekor ikan paus besar diperintahkan untuk menelan Nabi Yunus. Di dalam perut ikan itulah Nabi Yunus sadar akan kesalahannya karena telah meninggalkan kaumnya. Ia berdoa kepada Allah dan bertaubat kepada-Nya : “Ya Allah, Tiada Tuhan selain Engkau. Maha Suci Tuhan. Sesungguhnya aku telah menganiaya diriku sendiri. Dan aku termasuk golongan orang yang dzalim”."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView84"
+                android:textSize="10dp"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:layout_width="wrap_content"
+                android:typeface="monospace"
+                android:layout_height="35dp"
+                android:background="@drawable/button_background"
+                android:textSize="10dp"
+                android:id="@+id/t_nextyunus2"/>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

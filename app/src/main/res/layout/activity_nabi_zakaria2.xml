@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiZakaria2">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="9dp"
+                android:background="@drawable/button_background"
+                android:typeface="monospace"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_zakaria2"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Zakaria A.S."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/zakaria"/>
+        <TextView
+                android:text="    Maryam menjawab: “Ini adalah pemberian Allah yang aku dapat tanpa kucari dan aku minta. Di waktu pagi dikala matahari terbit aku mendapatkan rezeki ku ini sudah berada di depan mataku, demikian pula bila matahari terbenam di waktu senja. Mengapa bapa saudaranya merasa hairan dan takjub? Bukankah Allah berkuasa memberikan rezekinya kepada siapa yang Dia kehendaki tanpa perhitungan?”"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="    Rasa cinta dan kasih sayang Zakaria terhadap Maryam sebagai anak saudara isterinya yang ditinggalkan ayahnya meningkat menjadi rasa hormat dan takzim tatkala terjadi suatu peristiwa yang menandakan bahwa Maryam bukanlah gadis biasa sebagaimana gadis-gadis yang lain, tetapi ia adalah wanita pilihan Allah untuk suatu kedudukan dan peranan besar di kemudian hari."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:typeface="monospace"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Masa yang dialami oleh Nabi Zakaria adalah masa yang aneh di mana banyak hal yang berlawanan yang berhadap-hadapan dan saling bertentangan serta terlibat pertarungan yang tidak pernah padam. Keimanan kepada Allah SWT bercahaya di mesjid yang besar di Baitul Maqdis, sedangkan kebohongan memenuhi pasar-pasar Yahudi yang bersebelahan dengan mesjid itu. Sudah menjadi tradisi dunia bahwa segala sesuatu yang bertentangan mesti saling berhadapan pada: kebaikan dengan kejahatan, cahaya dengan kegelapan, kebenaran dengan kebohongan, para nabi dengan para pembangkang. Alhasil, segala sesuatu berhadapan untuk mempertahankan kehidupan."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Nabi Zakaria meminta kepada Penciptanya tanpa mengangkat suara keras-keras agar Dia memberinya seorang lelaki yang mewarisi kenabian dan hikmah serta keutamaan dan ilmu. Nabi Zakaria khawatir kaumnya akan tersesat setelahnya di mana tidak ada seorang nabi setelahnya. Allah SWT mengkabulkan doa Zakaria. Belum lama Nabi Zakaria berdoa kepada Allah SWT hingga malaikat memanggilnya saat ia salat di mihrab:
+    “Hai Zakaria, sesungguhnya Kami memberi kabar gembira kepadamu akan (memperoleh) seorang anak yang namanya Yahya, yang sebelumnya Kami belum pernah menciptakan orang yang serupa dengan dia.” (QS. Maryam: 7)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView6"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:typeface="monospace"
+                android:background="@drawable/button_background"
+                android:textSize="10dp"
+                android:id="@+id/t_nextzakaria3"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

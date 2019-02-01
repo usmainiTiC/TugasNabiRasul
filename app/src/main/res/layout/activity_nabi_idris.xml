@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiIdris">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:typeface="monospace"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:background="@drawable/button_background"
+                android:layout_height="30dp"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_idris1"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Idris A.S."
+                android:typeface="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/idris"/>
+        <TextView
+                android:text="    Nabi idris merupakan hamba Allah yang selalu mempelajari mushaf-mushaf nabi adam as. Ia juga mendapat gelar sebagai ”Asadul Usud” yang artinya Singa, karena ia tidak pernah putus asa ketika menjalankan tugasnya sebagai seorang Nabi. Ia tidak pernah takut menghadapi umatnya yang kafir. Namun ia tidak pernah sombong, ia juga memiliki sifat pemaaf."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Pada masa nabi idris, pernah suatu ketika banyak manusia melupakan Allah, sehingga Allah pun menghukum manusia dengan membuat kemarau yang panjang. Kemudian nabi idris pun turun tangan, ia memohon kepada Allah untuk mengakhiri hukum kemarau panjang tersebut. Allah menghabulkan permohonan nabi idris itu, dan lalu musim kemarau pun berakhir, hujan turun.
+Nabi Idris as diutus oleh Allah untuk menegakkan agama Allah, mengajarkan tauhid, dan beribadah menyebambah kepada Allah serta memberi beberapa pedoman hidup bagi pengikutnya supaya selamat dari siksaan di dunia maupun di akhirat."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Nabi Idris as disebutkan dalam sebuah hadist sebagai salah seorang dari nabi-nabi pertama yang berbicara dengan Nabi Muhammad SAW dalam salah satu surga selama Mi’raj. Ketik Nabi Muhammad sedang melakukan perjalanan Isra’ Mi’raj ke langit, beliau bertemu Nabi Indris as. Nabi Muhammad bertanya kepada malaikat Jibril yang mendampinya saat itu  ” Siapa orang ini?”
+Malaikat jibril menjawab ”Inilah Idris”. Nabi idris as diyakini sebagai seorang penjahit berdasarkan hadist  ; Ibnu Abbas berkata, ”Dawud adalah seorang pembuat perisai, Adam seorang petani, Nuh seorang tukang kayu, idris seorang penjahit dan musa adalah penggembala” (dari Al-Hakim)"
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+        <TextView
+                android:text="     Setiap hari malaikat Izrail dan Nabi Idris as beribadah bersama. Suatu kali, sekali lagi Nabi Idris as mengajukan permintaan ”Bisakah engkau membawa saya melihat surga dan neraka?”.  Malaikat izroil pun menjawab ”Wahai Nabi Allah, lagi lagi permintaanmu aneh”
+Nabi idris pun di bawa ke tempat yang ingin dilihatnya, tentunya malaikat izrois telah memohon izin kepada Allah, dan Allah mengizinkannya."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:typeface="monospace"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_background"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:id="@+id/t_nextIdris2"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

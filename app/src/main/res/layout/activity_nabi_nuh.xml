@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiNuh">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:typeface="monospace"
+                android:background="@drawable/button_background"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_nuh1"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Nuh A.S."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/nuh"/>
+        <TextView
+                android:text="    Nabi Nuh diutus oleh Allah di sebuah daerah yang awalnya sederhana, di sebuah negeri yang dilalui dua sungai; Eufrat dan Tigris. Namun, seiring berjalannya waktu, kesederhanaan daerah tersebut berubah menjadi mencekam, yang kuat menindas yang lemah. Dari situlah awal kebobrokan kaum Nabi Nuh."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="    Orang-orang mulai lupa akan beribadah kepada Allah. Nabi Nuh memperingatkan kaumnya agar kembali ke jalan Allah. Tidak menyembah berhala-berhala yang mereka buat. Oarangorang membuat berhala dan diletakkan di tepi sungai Eufrat. Mereka menamakan berhala-berhala itu Wadd, Suwa’, Yaghuts, Ya’uq dan Nasr. Nabi Nuh selalu berdoa kepada Allah agar umatnya dijauhkan dari kebodohan."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Bukan hanya kaum kuat saja, kaum lemah pun tak mau mengikuti ajakan Nabi Nuh. Mereka takut dan berpikir bahwa apapun yang benar menurut kaum kuat, berarti benar juga di mata kaum lemah. Tetapi ada beberapa orang yang percaya akan seruan Nabi Nuh. Mereka berasal dari golongan kaum miskin dan tertindas."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Hingga pada suatu hari, seorang malaikat turun ke bumi dan berkata kepada Nabi Nuh, “Sesering apapun engkau menyeru kaummu, mereka tetap tidak akan beriman kepada Allah. Jangan letihkan dirimu demi mereka, karena mereka adalah orang terkutuk.”
+    Kemudian, Nabi Nuh pun berdoa, “Tuhanku, jangan Engkau biarkan seorang pun di antara orang-orang kafir itu tinggal di atas bumi. Sesungguhnya jika Engkau biarkan mereka tinggal, niscaya mereka akan menyesatkan hamba-hamba-Mu, dan mereka tidak akan melahirkan selain anak yang berbuat maksiat, lagi sangat kufur.” (Q.S. Nuh : 26-27).."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+        <TextView
+                android:text="    Allah kemudian mewahyukan kepada Nabi Nuh agar mebuat Bahtera besar. Bahtera tersebut memiliki 3 lantai, panjang 200 meter, lebar 70 meter dan tinggi 25 meter. Sangat sulit membuat bahtera sebesar itu. Tetapi, kecakapan yang dimiliki Nabi Nuh sebagai tukang kayu serta dibantu juga oleh pengikut Nabi Nuh, meringankan kesukaran. Mereka mebuat bahtera di sebuah gurun dan terdeteksi pula keberadaannya oleh kaum kafir. Mereka menghina dan menghujat habis-habisan kepada Nabi Nuh dan kaumnya."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:typeface="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:background="@drawable/button_background"
+                android:id="@+id/t_nextnuh2"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.indah.mobileapp">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home">
+        </activity>
+        <activity android:name=".NabiAdam">
+        </activity>
+        <activity android:name=".NabiIdris">
+        </activity>
+        <activity android:name=".NabiIdris2">
+        </activity>
+        <activity android:name=".NabiIdris3">
+        </activity>
+        <activity android:name=".NabiIdris4">
+        </activity>
+        <activity android:name=".NabiAdam2">
+        </activity>
+        <activity android:name=".NabiNuh">
+        </activity>
+        <activity android:name=".NabiNuh2">
+        </activity>
+        <activity android:name=".NabiNuh3">
+        </activity>
+        <activity android:name=".NabiYahya">
+        </activity>
+        <activity android:name=".NabiYusuf">
+        </activity>
+        <activity android:name=".NabiYusuf2">
+        </activity>
+        <activity android:name=".NabiYusuf3">
+        </activity>
+        <activity android:name=".NabiYusuf4">
+        </activity>
+        <activity android:name=".NabiYusuf5">
+        </activity>
+        <activity android:name=".NabiYusuf6">
+        </activity>
+        <activity android:name=".NabiZakaria">
+        </activity>
+        <activity android:name=".NabiZakaria2">
+        </activity>
+        <activity android:name=".NabiZakaria3">
+        </activity>
+        <activity android:name=".NabiShaleh">
+        </activity>
+        <activity android:name=".NabiShaleh2">
+        </activity>
+        <activity android:name=".NabiShaleh3">
+        </activity>
+        <activity android:name=".NabiShaleh4">
+        </activity>
+        <activity android:name=".NabiSulaiman">
+        </activity>
+        <activity android:name=".NabiSulaiman2">
+        </activity>
+        <activity android:name=".NabiSuaiman3">
+        </activity>
+        <activity android:name=".NabiSulaiman4">
+        </activity>
+        <activity android:name=".NabiSyuaib">
+        </activity>
+        <activity android:name=".NabiSyuaib2">
+        </activity>
+        <activity android:name=".NabiDzulkifli">
+        </activity>
+        <activity android:name=".NabiDzulkifli2">
+        </activity>
+        <activity android:name=".NabiYunus">
+        </activity>
+        <activity android:name=".NabiYunus2">
+        </activity>
+        <activity android:name=".NabiIsmail">
+        </activity>
+        <activity android:name=".NabiDaud">
+        </activity>
+        <activity android:name=".NabiDaud2">
+        </activity>
+        <activity android:name=".NabiDaud3">
+        </activity>
+        <activity android:name=".NabiHarun">
+        </activity>
+        <activity android:name=".NabiHarun2">
+        </activity>
+        <activity android:name=".NabiIbrahim">
+        </activity>
+        <activity android:name=".NabiIbrahim2">
+        </activity>
+        <activity android:name=".NabiIshak">
+        </activity>
+        <activity android:name=".NabiIshak2">
+        </activity>
+        <activity android:name=".NabiIlyas">
+        </activity>
+        <activity android:name=".NabiIlyasa">
+        </activity>
+        <activity android:name=".NabiAyub">
+        </activity>
+        <activity android:name=".NabiAyub2">
+        </activity>
+        <activity android:name=".NabiHud">
+        </activity>
+        <activity android:name=".NabiMusa">
+        </activity>
+        <activity android:name=".NabiIsa">
+        </activity>
+        <activity android:name=".NabiYakub">
+        </activity>
+        <activity android:name=".NabiYakub2">
+        </activity>
+        <activity android:name=".NabiLuth">
+        </activity>
+        <activity android:name=".NabiMuhammad">
+        </activity>
+    </application>
+
+</manifest>

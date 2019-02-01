@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiShaleh3">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_background"
+                android:typeface="monospace"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_saleh3"
+                android:layout_marginTop="0dp"/>
+
+        <TextView
+                android:text="Kisah Nabi Shaleh A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:typeface="monospace"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="20dp"
+                   android:src="@drawable/sleh3"/>
+        <TextView
+                android:text="    Maka ketika kaum Shalih melihat onta itu dengan bentuk yang menakjubkan, sebagian kaumnya beriman, tetapi kebanyakan mereka kafir dan tetap di atas kesesatannya. Selanjutnya Allah Subhanahu wa Ta’ala mewahyukan kepada Shalih agar memerintahkan kaumnya tidak menyakiti onta itu, maka Shalih berkata kepada kaumnya, “Sesungguhnya telah datang bukti yang nyata kepadamu dari Tuhammu. Onta betina Allah ini menjadi tanda bagimu, maka biarkanlah dia makan di bumi Allah, dan janganlah kamu mengganggunya dengan gangguan apa pun, (yang karenanya) kamu akan ditimpa siksaan yang pedih.” (QS. Al A’raaf: 73 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView99"/>
+        <TextView
+                android:text="    Keadaan tetap terus seperti itu hingga berlalu waktu yang panjang, ketika itu onta tersebut meminum air sumur pada hari tertentu, sedangkan mereka meminum air sumur pada hari yang lain secara bergiliran, dan pada hari ketika onta meminum air sumur sedangkan mereka tidak, maka mereka memerah susunya, lalu onta itu mengeluarkan susu yang cukup buat mereka semua, akan tetapi setan menghasut mereka, ia menghias kepada mereka jalan yang buruk sehingga mereka pura-pura tidak tahu peringatan Nabi Shalih kepada mereka, hingga akhirnya mereka sepakat untuk membunuh onta itu. Saat itu, jumlah orang yang sepakat untuk membunuhnya Sembilan orang sebagaimana difirmankan Allah Ta’ala di surat An Naml: 48,
+“Dan di kota itu ada sembilan orang laki-laki yang membuat kerusakan di muka bumi, dan mereka tidak berbuat kebaikan.” (QS. An Naml: 48)"
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="    Selanjutnya mereka bersepakat dengan kaum mereka yang lain untuk melaksanakan niat buruk itu. Saat itu, yang bertindak langsung untuk membunuhnya adalah orang yang paling celaka di antara mereka dan paling besar kerusakannya, ada yang mengatakan, bahwa namanya adalah Qudar bin Salif."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Maka pada pagi hari, kaum Shalih berkumpul di suatu tempat yang luas menunggu kehadiran onta itu untuk mewujudkan niat jahat mereka itu. Tidak lama kemudian, onta yang besar itu pun lewat, lalu salah seorang di antara mereka maju dan memanahnya dengan panah yang tajam yang mengenai betisnya, sehingga onta itu jatuh ke tanah, maka Qudar bin Salif menusuknya dengan pedang hingga onta itu pun mati. Ketika itu Nabi Shalih ‘alaihissalam mengetahui perbuatan yang dilakukan kaumnya itu yang ditambah dengan sikap mengejek beliau ‘alaihissalam dan mengolok-oloknya dengan berkata, “Wahai shalih, datangkanlah apa yang kamu ancamkan itu kepada Kami, jika (betul) kamu termasuk orang-orang yang diutus (Allah).” (QS. Al A’raaf: 77)"
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_background"
+                android:layout_height="35dp"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/t_nextshaleh4"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

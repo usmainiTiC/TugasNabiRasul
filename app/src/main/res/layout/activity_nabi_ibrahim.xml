@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiIbrahim">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+            <Button
+                    android:text="Home"
+                    android:typeface="monospace"
+                    android:background="@drawable/button_background"
+                    android:textAlignment="center"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:textSize="9dp"
+                    android:layout_alignParentTop="false"
+                    android:id="@+id/home_ibrahim1"
+                    android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Ibrahim A.S."
+                android:typeface="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="170dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/ibrahim"/>
+        <TextView
+                android:text="    Nabi Ibrahim lahir di Babilonia, dengan Ayah bernama Torakh (Tarikh) yang terkenal dengan panggilan Azar. Nabi Ibrahim lahir pada Zaman Raja Namrud. Nabi Ibrahim dilahirkan ditengah hutan, karena ayahnya khawatir akan dibunuh raja Namrud, sehingga sampai tumbuh dewasa nabi Ibrahim ditengah hutan."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Nabi Ibrahim suka tadabbur alam, dia perhatikan alam ini untuk mencari Tuhan. Bulan, Bintang, Matahari dia perhatikan , awalnya dia mengirah Bulan, Bintang , Matahari itu Tuhan, namun karena Bulan, Bintang, matahari silih berganti ahirnya Nabi Ibrahim bergumam, 'Tuhan tidak mungkin hilang, pastilah ada dzat yang mengatur silih bergantinya bulan, bintang, dan matahari itu'. "
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <TextView
+                android:text="    Menginjak dewasa, nabi Ibrahim berbaur dengan masyarakat, dan sudah mendapat titik terang tentang agama yang benar. Suatu hari nabi Ibrahim mengharapkan pemantapat jiwa kepada Allah, dan dengan panduan malaikat, nabi ibrahim diperintahkan membunuh 4 ekor burung dan melumatkan tubuh burung itu menjadi 1, kemudian dibaginya lagi menjadi 4 dan diletakkan ditempat yang berbeda, atas ijin Allah burung-burung itu hidup kembali, maka semakin kuatlah iman nabi Ibrahim."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView5"/>
+        <TextView
+                android:text="     Nabi Ibrahim mulai mensyi'arkan Islam, dan menentang agama raja Namrud, sampai suatu hari, dihari sabtu, masyarakat pada pergi mencari ikan untuk acara sesembahan kepada berhala-berhala di makkah, nabi Ibrahim pergi ke makkah, dan menghancurkan semua behala disitu, dan disisakan 1 berhala yang sangat besar, dan kapak yang digunakan untuk menghancurkan berhala dikalungkan dileher berhala yang besar tadi."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6"/>
+        <TextView
+                android:text="     Setelah masyarakat menyadari apa yang terjadi pada berhala-berhala mereka, mereka lapor pada raja, dan nabi Ibrahimlah tersangka utamanya, dan langsung dipanggil untuk disidang. Dalam sidang, nabi Ibrahim dapat mengalahkan hujjah raja, dan karena raja murka, nabi Ibrahim dihukum bunuh , dengan cara dibakar, namun atas ijin Allah, api yang membakar nabi Ibrahim tidak panas, bahkan ,membuat nabi Ibrahim segar, melihat kenyataan itu, banyak masyarakat mengikuti ajaran nabi Ibrahim."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView6666"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:layout_width="wrap_content"
+                android:typeface="monospace"
+                android:background="@drawable/button_background"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:id="@+id/t_ibrahim2"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

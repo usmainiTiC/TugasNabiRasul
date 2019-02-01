@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NabiZakaria">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="488dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+        <Button
+                android:text="Home"
+                android:textAlignment="center"
+                android:layout_width="70dp"
+                android:background="@drawable/button_background"
+                android:layout_height="30dp"
+                android:typeface="monospace"
+                android:textSize="9dp"
+                android:layout_alignParentTop="false"
+                android:id="@+id/home_zakaria1"
+                android:layout_marginTop="0dp"/>
+        <TextView
+                android:text="Kisah Nabi Zakaria A.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="14dp"
+                style="@style/Theme.AppCompat"
+                android:textAlignment="center"
+                android:id="@+id/textView3"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:layout_margin="15dp"
+                   android:src="@drawable/zakaria"/>
+        <TextView
+                android:text="    Nabi Zakaria adalah ayah dari Nabi Yahya putera tunggalnya yang lahir setelah ia mencapai usia sembilan puluh tahun. Sejak beristeri Hanna, ibu saudaranya Maryam, Zakaria mendambakan mendapat anak yang akan menjadi pewarisnya. Siang dan malam tiada henti-hentinya ia memanjatkan doanya dan permohonan kepada Allah agar dikurniai seorang putera yang akan dapat meneruskan tugasnya memimpin Bani Israil. Ia khuatir bahwa bila ia mati tanpa meninggalkan seorang pengganti, kaumnya akan kehilangan pemimpin dan akan kembali kepada cara-cara hidup mereka yang penuh dengan mungkar dan kemaksiatan dan bahkan mungkin mereka akan mengubah syariat Musa dengan menambah atau mengurangi isi kitab Taurat sekehendak hati mereka. Selain itu, ia sebagai manusia, ingin pula agar keturunannya tidak terputus dan terus bersambung dari generasi sepanjang Allah mengizinkannya dan memperkenankan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="10dp"
+                android:id="@+id/textView2"/>
+        <TextView
+                android:text="    Nabi Zakaria tiap hari sebagai tugas rutin pergi ke mihrab besar melakukan sembahyang serta menjenguk Maryam anak iparnya yang diserahkan kepada mihrab oleh ibunya sesuai dengan nazarnya sewaktu ia masih dalam kandungan. Dan memang Zakarialah yang ditugaskan oleh para pengurus mihrab untuk mengawasi Maryam sejak ia diserahkan oleh ibunya. Tugas pengawasan atas diri Maryam diterima oleh Zakaria melalui undian yang dilakukan oleh para pengurus mihrab di kala menerima bayi Maryam yang diserahkan pengawasannya kepadanya itu adalah anak saudara isterinya sendiri yang hingga saat itu belum dikurniai seorang anak pun oleh Tuhan."
+                android:layout_width="match_parent"
+                android:typeface="monospace"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/textView"/>
+        <TextView
+                android:text="    Suatu peristiwa yang sangat menakjubkan dan menghairankan Zakaria telah terjadi pada suatu hari ketika ia datang ke mihrab sebagaimana biasa. Ia melihat Maryam disalah satu sudut mihrab sedang tenggelam dalam sembahyangnya sehingga tidak menghiraukan bapa saudaranya yang datang menjenguknya. Di depan Maryam yang sedang asyik bersembahyang itu terlihat oleh Zakaria berbagai jenis buah-buahan musim panas. Bertanya-tanya Nabi Zakaria dalam hatinya, dari mana datangnya buah-buahan musim panas ini, padahal mereka masih berada dalam musim dingin. Ia tidak sabar menanti anak saudaranya selesai sembahyang, ia lalu mendekatinya dan menegur bertanya kepadanya: “Wahai Maryam, dari manakah engkau dapat ini semua?”"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:id="@+id/textView4"
+                android:textSize="10dp"/>
+        <Button
+                android:text="Selanjutnya..."
+                android:layout_width="wrap_content"
+                android:typeface="monospace"
+                android:layout_height="35dp"
+                android:background="@drawable/button_background"
+                android:textSize="10dp"
+                android:layout_marginTop="94dp"
+                android:id="@+id/t_nextzakaria2"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
